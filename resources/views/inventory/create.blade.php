@@ -211,7 +211,7 @@
 
         <h2>Inventory Input</h2> 
         
-        <!-- Notifikasi Error Validasi -->
+        <!-- Error Notification -->
         @if ($errors->any())
             <div class="alert-error">
                 <ul>
@@ -222,7 +222,7 @@
             </div>
         @endif
 
-        <!-- Notifikasi Sukses -->
+        <!-- Success Notification -->
         @if (session('success')) 
             <div class="alert-success">
                 {{ session('success') }}
